@@ -1,0 +1,69 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:"roboto";
+}
+
+
+.container {
+    height: 100%;
+    background-image: url('https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+
+.content {
+    position: relative; 
+    color: white;
+    text-align: left;
+    padding: 20px;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+
+.start-button {
+    background-color: orange; 
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.skip-link {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
